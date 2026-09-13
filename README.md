@@ -36,7 +36,7 @@ cd "C:\Users\User\OneDrive\Documents\ChatGPT\Online Train Reservation System"
 
 & ".\.tools\apache-maven-3.9.16\bin\mvn.cmd" "-Dmaven.repo.local=.m2\repository" compile exec:java
 
-                                         ## "OR"
+                                          "OR"
                                        
 ## To use the shorter mvn command for this PowerShell session (It lasts only until you close that PowerShell window):
 
