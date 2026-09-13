@@ -1,0 +1,13 @@
+# Maven build output and locally downloaded tools/dependencies
+target/
+.tools/
+.m2/
+
+# Local SQLite database created when the app runs
+*.db
+*.db-journal
+
+# Editor files
+.idea/
+*.iml
+.vscode/
