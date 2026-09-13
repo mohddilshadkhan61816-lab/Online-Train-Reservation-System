@@ -29,3 +29,16 @@ The SQLite database is created automatically as `railease.db` in the project fol
 | 12627 | Karnataka Express |
 
 All database queries use `PreparedStatement` parameters; the login and booking database contain starter records only for demonstration.
+
+For run on local host open power shell and gave these command to it:
+cd "C:\Users\User\OneDrive\Documents\ChatGPT\Online Train Reservation System"
+
+& ".\.tools\apache-maven-3.9.16\bin\mvn.cmd" "-Dmaven.repo.local=.m2\repository" compile exec:java
+                                       "OR"
+To use the shorter mvn command for this PowerShell session (It lasts only until you close that PowerShell window):
+cd "C:\Users\User\OneDrive\Documents\ChatGPT\Online Train Reservation System"
+
+$env:Path = "$PWD\.tools\apache-maven-3.9.16\bin;$env:Path"
+
+mvn "-Dmaven.repo.local=.m2\repository" compile exec:java
+                                
